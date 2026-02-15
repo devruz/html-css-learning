@@ -1,0 +1,124 @@
+<!-- Chrome devtools - In any website you can see html codes -->
+<!-- So how ??? By right in your mouse we can choose inspect button and then it is opened the devtools -->
+<!-- Now we can see all the css sytles and html codes -->
+<style>
+  .join-button{
+    background-color:white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 15px; /* if we want to add some space inside of the button, we can use paddings */
+
+    transition: background-color 0.15s,
+      color 0.15;
+  }
+  .join-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .click-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 235, 239);
+    border-color: rgb(31, 235, 239);
+    height: 36px;
+    width: 85px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: opacity 0.45s;
+    margin-right: 30px;
+    margin-left: 20px;
+    vertical-align: top; /* this sign for putting all button to one line*/
+  }
+  .click-button:hover {
+    opacity: 0.89s;
+    background-color: rgb(31, 235, 239);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+
+  }
+  /* css box model - It allows us to add space between two elements as well as that space inside in our element to make it bigger*/
+  /* margin - spacing outside of the element */
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 8px 13px;
+    font-size: 16px;
+    vertical-align: top;
+    transition: padding 3s;
+  } 
+  .stretch-button:hover {
+    background-color: rgb(1, 69, 1);
+    color: yellow;
+    padding: 25px;
+  }
+
+  .button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 12px 18px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+    transition: padding 2.1;
+    text-align: center;
+  }
+  .button:hover {
+    padding-left: 22px;
+    padding-right: 22px;
+
+  } 
+
+  .shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+  }
+  .shadow-button:hover {
+    box-shadow: none;
+  }
+
+  
+</style>
+
+<button class="join-button">
+  join my channel
+</button>
+
+<button class="click-button">
+  click
+</button>
+
+<button class="stretch-button">
+  Stretch
+</button>
+
+<button class="button">
+  One
+</button>
+
+<button class="button">
+  Two
+</button>
+
+<button class="button">
+  Three
+</button>
+
+<button class="shadow-button">
+  Shadow
+</button>
+
+
