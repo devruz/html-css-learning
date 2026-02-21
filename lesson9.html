@@ -1,0 +1,208 @@
+<!-- In this lesson we will learn how to work with div -->
+<!--div is like container that can contain many kind of kind things: img, paragraph, input boxes, buttons.  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hellobro</title>
+    <style>
+      .square {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        display: inline-block;
+      }
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        display: inline-block;
+        border-radius: 50px;
+        margin-left: 10px;
+      }
+      .service {
+        vertical-align: top;
+        margin-left: 10px;
+        display: inline-block;
+        width: 300px;
+        border: 1px solid #ccc;
+        padding: 16px;
+      }
+      .music{
+        font-size: large;
+        color: #ccc;
+        padding-left: 10px;
+        font-family: Roboto, Arial;
+      }
+      .install {
+        background-color: rgb(52, 50, 50);
+        width: 400px;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .add {
+        color: grey;
+        padding-left: 10px;
+      }
+      .what {
+        width: 300px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        display: inline-block;
+
+      }
+      .happen {
+        padding-left: 10px;
+        display: inline-block;
+        /* align-items: middle;/////////////////////////////////////////////////////////////////////////// */
+      }
+      .cat {
+        width: 50px;
+        align-items: center;
+        height: 50px;
+        border-radius: 25px;
+        /* object-fit: cover;////////////////////////////////////////////////////////////////////////////// */
+        margin-left: 15px;
+        margin-top: 10px;
+        display: inline-block;
+      }
+      .profile {
+        width: 200px;
+        height: 300px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      .human {
+        width: 200px;
+        height: 200px;
+      }
+      .name { 
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+      }
+      .view {
+        color: grey;
+        margin-left: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      .friend {
+        background-color: rgb(18, 124, 205);
+        color: white;
+        border-radius: 2px;
+        margin-left:3px;
+        margin-top: 5px;
+        border: none;
+        padding: 10px 20px;
+      }
+      .profilee {
+        width: 200px;
+        height: 300px;
+        border: 1px solid #ccc;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        display: inline-block;
+      }
+      .humann {
+        width: 200px;
+        height: 200px;
+      }
+      .namee { 
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+      }
+      .vieww {
+        color: grey;
+        margin-left: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      .friendd {
+        background-color: rgb(18, 124, 205);
+        color: white;
+        border-radius: 2px;
+        margin-left:3px;
+        margin-top: 5px;
+        border: none;
+        padding: 10px 20px;
+      }
+       .google {
+        vertical-align: center;
+      } 
+      .logo {
+        vertical-align: center;
+        display: inline-block;
+      }
+      .search {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 600px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+        border-radius: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="square"></div>
+  
+    <div class="circle"></div>
+
+    <div class="service">
+      <p>Satisfied with our service?</p>
+      <button >yes</button>
+      <button >no</button>
+    </div>
+
+    <div class="install">
+      <p class="music">Install You tube Music</p>
+      <p class="add">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+
+    <div class="what">
+      <img class="cat" src="htmlpictures/cat.jpg" alt="">
+      <p class="happen">What's happening</p>
+    </div>
+
+    <div class="profile">
+      <img class="human" src="htmlpictures/human.jpg">
+      <p class="name">Behruz</p>
+      <p class="view">8 mutual friends</p>
+      <button class="friend">Add friend</button>
+    </div>
+
+    <div class="profilee">
+      <div>
+        <img class="humann" src="htmlpictures/catwithcap.jpg">
+        <p class="namee">Behruz</p>
+        <p class="vieww">10 mutual friends</p>
+        <button class="friendd">Add friend</button>
+      </div>
+
+      <div>
+        <img class="humann" src="htmlpictures/catwithcap.jpg">
+        <p class="namee">Jasur</p>
+        <p class="vieww">14 mutual friends</p>
+        <button class="friendd">Add friend</button>
+      </div>
+
+      <div>
+        <img class="humann" src="htmlpictures/catwithcap.jpg">
+        <p class="namee">Zafar</p>
+        <p class="vieww">54 mutual friends</p>
+        <button class="friendd">Add friend</button>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img class="google" src="htmlpictures/logo.png">
+      <input class="search" type="text" placeholder="Search Google or type a URL">
+    
+    </div>
+  </body>
+</html>
